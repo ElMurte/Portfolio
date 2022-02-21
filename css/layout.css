@@ -38,7 +38,10 @@ header {
    text-align: center;
    overflow: hidden;
 }
-
+p.skillsDesc{
+   white-space: pre-line;  
+vertical-align: bottom;
+}
 /* vertically center banner section */
 header:before {
    content: '';
@@ -78,7 +81,7 @@ header .banner-text h3 {
    color: #A8A8A8;
    margin: 0 auto;
    width: 70%;
-   text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+   text-shadow: 5px 5px 5px rgba(0, 0, 0, .7);
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
