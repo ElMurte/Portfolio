@@ -30,8 +30,7 @@ body { background: #0f0f0f; }
 
 header {
    position: relative;
-   height: 760px;
-   min-height: 500px;
+   min-height: 560px;
    width: 100%;
    background: #161415 url(https://assets-global.website-files.com/55e67eeba2e73cb76514f165/5987c1c5399f94000114c0f2_Webflow%20Crash%20Course.png) no-repeat top center;
    background-size: cover !important;
@@ -39,7 +38,10 @@ header {
    text-align: center;
    overflow: hidden;
 }
-
+p.skillsDesc{
+   white-space: pre-line;  
+vertical-align: bottom;
+}
 /* vertically center banner section */
 header:before {
    content: '';
@@ -47,12 +49,22 @@ header:before {
    vertical-align: middle;
    height: 100%;
 }
+.skills{
+}
+.skillinfo{
+	max-width:60px;
+}
+.skills ul li{
+	margin:1% 7%;
+	display:inline-block;
+}
 header .banner {
    display: inline-block;
    vertical-align: middle;
    margin: 0 auto;
+   padding-top:4.5%;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -69,7 +81,7 @@ header .banner-text h3 {
    color: #A8A8A8;
    margin: 0 auto;
    width: 70%;
-   text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+   text-shadow: 5px 5px 5px rgba(0, 0, 0, .7);
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
@@ -433,6 +445,7 @@ ul#nav li.current a { color: #0077b5; }
 /* Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
+	padding:2%;border-radius:3%;
    background: #fff;
    overflow: hidden;
    position: relative;
@@ -491,17 +504,22 @@ ul#nav li.current a { color: #0077b5; }
    margin-left: -15px;
    margin-top: -15px;
 }
+.item-wrap{
+	background:#2B2B2B !important;
+	color:white;
+}
 .portfolio-item .item-wrap img {
    vertical-align: bottom;
 }
-.portfolio-item .portfolio-item-meta { padding: 18px }
+.portfolio-item .portfolio-item-meta { padding: 18px;color:#fff;}
 .portfolio-item .portfolio-item-meta h5 {
    font: 14px/21px 'opensans-bold', sans-serif;
    color: #fff;
 }
 .portfolio-item .portfolio-item-meta p {
    font: 15px/18px 'opensans-light', sans-serif;
-   color: #c6c7c7;
+   color:fff;
+
    margin-bottom: 0;
 }
 
