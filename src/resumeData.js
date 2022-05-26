@@ -17,10 +17,10 @@ let resumeData = {
           "className":"fa fa-github"
         }
       ],
-    "aboutme":"Currently i'm working on: ",
-	"aboutme1":"- finishing my studies;",
-	"aboutme2":"- working on some personal software projects in my free time;",
-  "aboutme3":"- learning Flutter/Dart, i like it.",
+    "aboutme":"Currently i'm: ",
+	"aboutme1":"- actively looking for job opportunities as a software developer in mobile and web development",
+	"aboutme2":"- working on some personal software projects",
+  "aboutme3":"- learning Flutter/Dart, I really like it",
     "address":"",
     "work":[
 
@@ -29,7 +29,7 @@ let resumeData = {
         "specialization":"Software developer",
         "MonthOfLeaving":"May to August",
         "YearOfLeaving":"2021",
-        "Achievements":"As an intern I participated in development activities for a total of about 320 hours: developing frontend components (React & SAP BO) and some REST APIs (Typescript,Node.js) on Azure plantform."
+        "Achievements":"I have worked in an Agile environment and given mycontribution as a Full-stack developer for a total of 320hours, working on:\n • frontend: development of UI components duringshort sprints(Scrum) with React.js and Redux as astate management \n• backend: development of REST API and data entry services with Azure platform following Agile methodologies through Typescript and third-party libraries selected from the npm register."
       }
     ],
     "education":[
@@ -81,20 +81,20 @@ let resumeData = {
     "portfolio":[
 	  {
         "name":"BlockCOVID",
-        "description":"For the SWE exam, whitin a team of 7 students, we had develop a dashboard and a mobile app to track users of an computer laboratory with GPS, NFC, blockchain. I have mainly worked in the mobile app(using Flutter with setState pattern from the official docs). The objective was to simulate a development cycle,from requirements to the deploy at the client, while switching the roles during the cycle.",  
+        "description":"\n • Built a dashboard and a mobile app to track users of a lab with GPS, NFC, and blockchain within a team of 7 students \n • Switched 3 different roles, from writing the project plan to coding the mobile app \n • have achieved and completed 100% of the requirements coverage and 80% of the code covered by testing",  
         "imgurl":"https://sweleven.gitlab.io/blockcovid/docs/manuale-utente/assets/web/room.png",
         "srcurl":"https://sweleven.gitlab.io/blockcovid/docs/manuale-utente/applicazione_web/",
 		"srcurl2":"https://sweleven.gitlab.io/blockcovid/docs/manuale-utente/applicazione_web/"
       },
       {
         "name":"MC Burger",
-        "description":"For the OOP exam i had developed a simple management software in an imaginary fast food restaurant.The objective was to apply all the concepts learned during the course(C++), following some constraints of implementation. One of the constraints was to use a software design pattern(i have used MVC) and the Qt framework for the UI.",
+        "description":"Developed a simple fast food management system for the OOP exam,followed the MVC design pattern,used a double-linked list as the main data structure written from scratch.",
         "imgurl":"https://repository-images.githubusercontent.com/256527718/9bb60100-c22b-11ea-8898-ad9ab8e72345",
         "srcurl":"https://github.com/ElMurte/MCBURGER"
       },
       {
         "name":"Netmovies",
-        "description":"For the Web technologies exam i had developed a streaming website with 2 other students without using any framework. \n We had used the following technologies: \n HTML5 , CSS , JS, PHP.",
+        "description":"\n• Created a streaming website without using third party libraries, just PHP, JavaScript, CSS, and HTML trying to make the web app as accessible as possible \n• collaborated and led a team of 3 students for the Web Technologies exam",
         "imgurl":"https://live.staticflickr.com/65535/50105286138_44be35ec64_z.jpg",
         "srcurl":"https://github.com/ElMurte/GFE"
       },

@@ -15,6 +15,7 @@ export default  class Resume extends Component {
             <div className="nine columns main-col">
               {
                 resumeData.work && resumeData.work.map((item) => {
+                  
                   return(
                     <div className="row item">
                        <div className="twelve columns">
@@ -22,9 +23,9 @@ export default  class Resume extends Component {
                           <p className="info">
                           {item.specialization}
                           <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
-                          <p>
-                          {item.Achievements}
-                          </p>
+                          <div>
+                          { (item.Achievements).split('\n').map(  (item, i) => { return <p className="achive-list-item" key={i}>{item} </p>; } ) }
+                          </div>
                        </div>
 
                     </div>

@@ -18,8 +18,8 @@ export default class Porfolio extends Component {
                       <div >
                         <div className="portfolio-item-meta">
                           <h5>{item.name}</h5>
-                          <p>{item.description}</p>
-                        </div>
+                          { (item.description).split('\n').map(  (item, i) => { return <p className="achive-list-item" key={i} >{item}  </p>; } ) }
+                                                 </div>
                       </div>
                     </a>
                   </div>

@@ -27,7 +27,9 @@ body { background: #0f0f0f; }
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
-
+p.achive-list-item {
+   margin: 3px;
+}
 header {
    position: relative;
    min-height: 560px;

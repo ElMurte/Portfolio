@@ -17,7 +17,9 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+p.achive-list-item {
+  margin: 3px;
+}
 .App-link {
   color: #61dafb;
 }
