@@ -18,10 +18,20 @@ let resumeData = {
         }
       ],
     "aboutme":"Currently i'm working on: ",
-	"aboutme1":"- finishing my studies:",
-	"aboutme2":"- working on some personal software projects in my free time.",
-  "aboutme3":"- learning Flutter(dart), i love it.",
+	"aboutme1":"- finishing my studies;",
+	"aboutme2":"- working on some personal software projects in my free time;",
+  "aboutme3":"- learning Flutter/Dart, i like it.",
     "address":"",
+    "work":[
+
+      {
+        "CompanyName":"Méthode Srl",
+        "specialization":"Software developer",
+        "MonthOfLeaving":"May to August",
+        "YearOfLeaving":"2021",
+        "Achievements":"As an intern I participated in development activities for a total of about 320 hours: developing frontend components (React & SAP BO) and some REST APIs (Typescript,Node.js) on Azure plantform."
+      }
+    ],
     "education":[
       {
         "UniversityName":"Università degli studi di Padova",
@@ -31,17 +41,8 @@ let resumeData = {
         "Achievements":""
       }
     ],
-    "work":[
 
-      {
-        "CompanyName":"Méthode Srl",
-        "specialization":"Software developer",
-        "MonthOfLeaving":"June to Aug",
-        "YearOfLeaving":"2021",
-        "Achievements":"In my internship had developed some API and functions with Azure(Javascript,Typescript) and some UI component with React/Redux"
-      }
-    ],
-    "skillsDescription":"\nI try to be a proactive person and do always my best on whatever i do.                                                                                               \nI think i have leadership skills(teamwork), since during my studies i had helped other students(and myself):                                                                          \n-building a forum with solutions where to practice coding                                                                                                                             \n-build group of studies                                                                                                                                                                 \n-i was an active member of the students community(FIUP) during my studies answering and sharing relevant material.",
+    "skillsDescription":"\nI try to be a proactive person and do always my best on whatever i do.                                                                                               \nI think i have leadership skills and teamworking attitude, since during my studies i had helped and worked (with)students,since:                                                                          \n-building a forum with solutions where to practice coding                                                                                                                             \n-I have builded group of studies                                                                                                                                                                 \n-I was an active member of the students community(FIUP) during my studies answering and sharing relevant material. \n-I like being an active member of communities(ex. devs).",
     "skills":[
 	{
 	"skillicon":"https://github.com/ElMurte/ImagesPresentation/blob/master/kisspng-qt-creator-qt-quick-the-qt-company-posted-write-5b1b6b4ccbb114.1843493915285235968343.png?raw=true",
@@ -79,21 +80,21 @@ let resumeData = {
     ],
     "portfolio":[
 	  {
-        "name":"BlockCovid",
-        "description":"A software project developed by me and 6 other students for the SWE course, in order to develop an application to track the users of a laboratory with technologies such as (NFC, GPS, Blockchain) based on a microservices architecture. The result was almost professional work. as well as throughout the software life cycle stage.We used several technologies, for development in particular: MongoDB, Angular, Flutter, Javascript (API), Infura. In particular I was involved in the mobile development part developing mainly with Flutter(using setState approach)",  
+        "name":"BlockCOVID",
+        "description":"For the SWE exam, whitin a team of 7 students, we had develop a dashboard and a mobile app to track users of an computer laboratory with GPS, NFC, blockchain. I have mainly worked in the mobile app(using Flutter with setState pattern from the official docs). The objective was to simulate a development cycle,from requirements to the deploy at the client, while switching the roles during the cycle.",  
         "imgurl":"https://sweleven.gitlab.io/blockcovid/docs/manuale-utente/assets/web/room.png",
         "srcurl":"https://sweleven.gitlab.io/blockcovid/docs/manuale-utente/applicazione_web/",
 		"srcurl2":"https://sweleven.gitlab.io/blockcovid/docs/manuale-utente/applicazione_web/"
       },
       {
-        "name":"FastFood System Management",
-        "description":"This is a Desktop application to manage the orders of a fastfood written in C++ and Qt framework based on MVC pattern",
+        "name":"MC Burger",
+        "description":"For the OOP exam i had developed a simple management software in an imaginary fast food restaurant.The objective was to apply all the concepts learned during the course(C++), following some constraints of implementation. One of the constraints was to use a software design pattern(i have used MVC) and the Qt framework for the UI.",
         "imgurl":"https://repository-images.githubusercontent.com/256527718/9bb60100-c22b-11ea-8898-ad9ab8e72345",
         "srcurl":"https://github.com/ElMurte/MCBURGER"
       },
       {
         "name":"Netmovies",
-        "description":"School project site for an on demand streaming platform done for an exam using HTML5,JS,PHP,CSS",
+        "description":"For the Web technologies exam i had developed a streaming website with 2 other students without using any framework. \n We had used the following technologies: \n HTML5 , CSS , JS, PHP.",
         "imgurl":"https://live.staticflickr.com/65535/50105286138_44be35ec64_z.jpg",
         "srcurl":"https://github.com/ElMurte/GFE"
       },
