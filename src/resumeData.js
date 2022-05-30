@@ -37,7 +37,14 @@ let resumeData = {
         "UniversityName":"Università degli studi di Padova",
         "specialization":"Computer Science",
         "MonthOfPassing":"",
-        "YearOfPassing":"Late April 2022",
+        "YearOfPassing":"April 2022",
+        "Achievements":""
+      },
+      {
+        "UniversityName":"Google Project Management Certificate",
+        "specialization":"",
+        "MonthOfPassing":"",
+        "YearOfPassing":"May 2022",
         "Achievements":""
       }
     ],
