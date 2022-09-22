@@ -57,10 +57,7 @@ time, mark, audio, video {
    vertical-align: baseline;
    background: transparent;
 }
- body.dark-theme {
-   color: red;
-   background: yellow;
- }
+
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
    display: block;
 }
@@ -101,7 +98,7 @@ li.techstack-item {
    display: inline-block;
    margin: 0.4%;
    padding: 0.3% 0.5%;
-   background: black;
+   background: #2B2B2B !important;
    color: white;
    border-radius: 5%;
 }
@@ -109,7 +106,7 @@ li.techstack-item-project {
    display: inline-flex;
    margin: 1.4% 3%;
    padding: 1.5% 1.5%;
-   background: black;
+   background: #2B2B2B !important;
    color: white;
    border-radius: 5%;
    border: 1px solid white;
