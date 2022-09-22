@@ -57,18 +57,18 @@ time, mark, audio, video {
    vertical-align: baseline;
    background: transparent;
 }
-
-article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section {
+ body.dark-theme {
+   color: red;
+   background: yellow;
+ }
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
    display: block;
 }
 nav{
 	background:#171717;
 }
 
-audio,
-canvas,
-video {
+audio,canvas,video {
    display: inline-block;
 }
 
@@ -90,14 +90,31 @@ pre {
    word-wrap: break-word;
 }
 
-blockquote, q { quotes: &#8220 &#8220; }
+blockquote, q { quotes: "&#8220 &#8220"; }
 
 blockquote:before, blockquote:after,
 q:before, q:after {
    content: '';
    content: none;
 }
-
+li.techstack-item {
+   display: inline-block;
+   margin: 0.4%;
+   padding: 0.3% 0.5%;
+   background: black;
+   color: white;
+   border-radius: 5%;
+}
+li.techstack-item-project {
+   display: inline-flex;
+   margin: 1.4% 3%;
+   padding: 1.5% 1.5%;
+   background: black;
+   color: white;
+   border-radius: 5%;
+   border: 1px solid white;
+   max-width: 33%;
+}
 ins {
    background-color: #ff9;
    color: #000;
