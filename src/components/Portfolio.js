@@ -22,6 +22,11 @@ export default class Porfolio extends Component {
                                                  </div>
                       </div>
                     </a>
+                    <ul>
+                      {item.techstack.map((tech) => {
+                        return <li className="techstack-item-project">{tech}</li>
+                      })}
+                    </ul>
                   </div>
                 </div>
               )

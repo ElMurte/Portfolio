@@ -8,7 +8,7 @@ let resumeData = {
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/elvis-murtezan/",
+          "url":"https://www.linkedin.com/in/elvismurtezan/",
           "className":"fa fa-linkedin"
         },
         {
@@ -27,6 +27,7 @@ let resumeData = {
       {
         "CompanyName":"Méthode Srl",
         "specialization":"Software developer",
+        "techstack":["TypeScript","SQL","JavaScript","React","Redux","C#","SAP Business Objects"],
         "MonthOfLeaving":"May to August",
         "YearOfLeaving":"2021",
         "Achievements":"I have worked in an Agile environment and given mycontribution as a Full-stack developer for a total of 320hours, working on:\n • frontend: development of UI components duringshort sprints(Scrum) with React.js and Redux as astate management \n• backend: development of REST API and data entry services with Azure platform following Agile methodologies through Typescript and third-party libraries selected from the npm register."
@@ -90,24 +91,28 @@ let resumeData = {
         "name":"BlockCOVID",
         "description":"\n • Built a dashboard and a mobile app to track users of a lab with GPS, NFC, and blockchain within a team of 7 students \n • Switched 3 different roles, from writing the project plan to coding the mobile app \n • have achieved and completed 100% of the requirements coverage and 80% of the code covered by testing",  
         "imgurl":"https://sweleven.gitlab.io/blockcovid/docs/manuale-utente/assets/web/room.png",
+        "techstack":["Flutter","Dart","GPS","NFC","Blockchain"],
         "srcurl":"https://sweleven.gitlab.io/blockcovid/docs/manuale-utente/applicazione_web/",
 		"srcurl2":"https://sweleven.gitlab.io/blockcovid/docs/manuale-utente/applicazione_web/"
       },
       {
         "name":"MC Burger",
         "description":"Developed a simple fast food management system for the OOP exam,followed the MVC design pattern,used a double-linked list as the main data structure written from scratch.",
+        "techstack":["C++","MVC","CSS","Qt Framework"],
         "imgurl":"https://repository-images.githubusercontent.com/256527718/9bb60100-c22b-11ea-8898-ad9ab8e72345",
         "srcurl":"https://github.com/ElMurte/MCBURGER"
       },
       {
         "name":"Netmovies",
         "description":"\n• Created a streaming website without using third party libraries, just PHP, JavaScript, CSS, and HTML trying to make the web app as accessible as possible \n• collaborated and led a team of 3 students for the Web Technologies exam",
+        "techstack":["PHP","SQL","JavaScript","CSS","HTML"],
         "imgurl":"https://live.staticflickr.com/65535/50105286138_44be35ec64_z.jpg",
         "srcurl":"https://github.com/ElMurte/GFE"
       },
       {
         "name":"TicTacToe/Tris",
-        "description":"a simple Desktop application who simulate the classic tictactoe game,was builded to understand the MVC concepts",  
+        "description":"a simple Desktop application who simulate the classic tictactoe game,was builded to understand the MVC concepts",
+        "techstack":["C++","MVC","Qt Framework"], 
         "imgurl":"https://repository-images.githubusercontent.com/252578738/44646080-c22c-11ea-84a8-df0862462da7",
         "srcurl":"https://github.com/ElMurte/tris"
       }

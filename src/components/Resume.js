@@ -9,7 +9,7 @@ export default  class Resume extends Component {
 
 <div className="row work">
             <div className="three columns header-col">
-               <h1><span>Work</span></h1>
+               <h1><span>Work Expiriences</span></h1>
             </div>
 
             <div className="nine columns main-col">
@@ -25,6 +25,11 @@ export default  class Resume extends Component {
                           <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
                           <div>
                           { (item.Achievements).split('\n').map(  (item, i) => { return <p className="achive-list-item" key={i}>{item} </p>; } ) }
+                          <ul>
+                          {item.techstack.map((tech) => {
+                            return <li className="techstack-item">{tech}</li>
+                          })}
+                          </ul>
                           </div>
                        </div>
 

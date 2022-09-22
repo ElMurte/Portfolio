@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
 export default class Header extends Component {
   render() {
+    const toggleClass = () => {
+  // Then toggle (add/remove) the .dark-theme class to the body
+  document.body.classList.toggle("dark-theme");
+    };
     let resumeData = this.props.resumeData;
     return (
       <React.Fragment>
       
       <header id="home">
-         <nav id="nav-wrap">
+  <nav id="nav-wrap">
             <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
           <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
             <ul id="nav" className="nav">
