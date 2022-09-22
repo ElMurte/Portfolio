@@ -27,7 +27,7 @@ let resumeData = {
       {
         "CompanyName":"Méthode Srl",
         "specialization":"Software developer",
-        "techstack":["TypeScript","SQL","JavaScript","React","Redux","C#","SAP Business Objects"],
+        "techstack":["TypeScript","Node.js","SQL","JavaScript","React","Redux","C#","SAP Business Objects"],
         "MonthOfLeaving":"May to August",
         "YearOfLeaving":"2021",
         "Achievements":"I have worked in an Agile environment and given mycontribution as a Full-stack developer for a total of 320hours, working on:\n • frontend: development of UI components duringshort sprints(Scrum) with React.js and Redux as astate management \n• backend: development of REST API and data entry services with Azure platform following Agile methodologies through Typescript and third-party libraries selected from the npm register."
@@ -35,14 +35,16 @@ let resumeData = {
     ],
     "education":[
       {
-        "UniversityName":"Università degli studi di Padova",
+        "UniversityName":"BCS at University of Padua",
         "specialization":"Computer Science",
         "MonthOfPassing":"",
         "YearOfPassing":"April 2022",
-        "Achievements":""
+        "Achievements":"",
+        "link":"https://bestr.it/award/show/mOB_SqfwTt65jgln-8u4OQ"
       },
       {
         "UniversityName":"Google Project Management Certificate",
+        "link":"https://www.credly.com/badges/570926e7-c419-43a9-b71c-3751d8d170c4/public_url",
         "specialization":"",
         "MonthOfPassing":"",
         "YearOfPassing":"May 2022",
