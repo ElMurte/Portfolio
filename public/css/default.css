@@ -57,10 +57,7 @@ time, mark, audio, video {
    vertical-align: baseline;
    background: transparent;
 }
- body.dark-theme {
-   color: red;
-   background: yellow;
- }
+
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
    display: block;
 }
