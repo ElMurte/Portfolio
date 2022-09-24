@@ -995,6 +995,7 @@ footer .copyright  li:first-child:before {
 .social-links a:hover{
 }
 a .item-wrap:hover {
+   
    border:3px solid #35a7ff;
 }
 footer .social-links {
