@@ -12,8 +12,8 @@ export default class Porfolio extends Component {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
               return(
                 <div className="columns portfolio-item">
-                  <div className="item-wrap">
-                    <a href={`${item.srcurl}`}>
+                 <a href={`${item.srcurl}`}> <div className="item-wrap">
+                    
                       <img src={`${item.imgurl}`} className="item-img"/>
                       <div >
                         <div className="portfolio-item-meta">
@@ -21,13 +21,13 @@ export default class Porfolio extends Component {
                           { (item.description).split('\n').map(  (item, i) => { return <p className="achive-list-item" key={i} >{item}  </p>; } ) }
                                                  </div>
                       </div>
-                    </a>
+                    
                     <ul>
                       {item.techstack.map((tech) => {
                         return <li className="techstack-item-project">{tech}</li>
                       })}
                     </ul>
-                  </div>
+                  </div></a>
                 </div>
               )
             })
@@ -36,7 +36,7 @@ export default class Porfolio extends Component {
           </div>
         </div>
       </div>
-	  	  <h6 class="moreinfoprojects">{resumeData.portfoliogit}</h6>
+	  	  <a target="_blank" href={resumeData.socialLinks[1].url}><h6 class="moreinfoprojects">{resumeData.portfoliogit}</h6></a>
   </section>
         );
   }

@@ -1,10 +1,10 @@
 let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
     "name": "Elvis Murtezan",
-    "role": "Software Developer from San Vendemiano,TV,Italy",
+    "role": " Software Developer from San Vendemiano, TV, Italy",
     "linkedinId":"Elvis Murtezan",
     "skypeid": "Your skypeid",
-    "roleDescription": " I like technology,solving problems and simplicity. This is what led me studying Computer Science.",
+    "roleDescription": "I like technology, solving problems, and simplicity. My passion for those arguments led me to complete a Bachelor of Computer Science.",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -52,7 +52,7 @@ let resumeData = {
       }
     ],
 
-    "skillsDescription":"\nI try to be a proactive person and do always my best on whatever i do.                                                                                               \nI think i have leadership skills and teamworking attitude, since during my studies i had helped and worked (with)students,since:                                                                          \n-building a forum with solutions where to practice coding                                                                                                                             \n-I have builded group of studies                                                                                                                                                                 \n-I was an active member of the students community(FIUP) during my studies answering and sharing relevant material. \n-I like being an active member of communities(ex. devs).",
+    "skillsDescription":"\nI try to be proactive and always do my best in whatever I do.\nI have leadership skills and team working attitude, during my studies I have helped and worked (with)students, since:\n-I built a forum with solutions where students can practice coding\n-I have built groups of studies\n-I was an active member of the student's community(FIUP) during my studies answering and sharing relevant material",
     "skills":[
 	{
 	"skillicon":"https://github.com/ElMurte/ImagesPresentation/blob/master/kisspng-qt-creator-qt-quick-the-qt-company-posted-write-5b1b6b4ccbb114.1843493915285235968343.png?raw=true",

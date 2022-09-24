@@ -10,12 +10,14 @@ export default class Header extends Component {
       <React.Fragment>
       
       <header id="home">
+
   <nav id="nav-wrap">
+  {/*<button class="btn-toggle" onClick={toggleClass}>dark</button>*/}
             <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
           <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
             <ul id="nav" className="nav">
                <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-               <li><a className="smoothscroll" href="#about">About</a></li>
+             {  /*<li><a className="smoothscroll" href="#about">About</a></li>*/}
                <li><a className="smoothscroll" href="#portfolio">Projects</a></li>
 			   <li><a className="smoothscroll" href="#resume">Recap</a></li>
 			   <li><a href="https://drive.google.com/file/d/1O-fnPlIFZLtA3WxtNJvbHAk7ABnknOP3/view?usp=sharing" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cloud-arrow-down-fill" viewBox="0 0 16 16">
@@ -25,9 +27,16 @@ export default class Header extends Component {
          </nav>
 
          <div className="row banner">
+         <div className="divpic">
+
+<img className="profile-pic"  src="https://avatars3.githubusercontent.com/u/32709092?s=460&u=4f7de2d07ab295cea9919be0f594e7aad99cf0a8&v=4" alt="" />
+
+</div>
             <div className="banner-text">
                <h1 className="responsive-headline">I am {resumeData.name}.</h1>
-               <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>I am a {resumeData.role}.{resumeData.roleDescription}
+
+               <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>I am a {resumeData.role}.{resumeData.roleDescription}<br></br>
+               I am open to new work opportunities, specially in Berlin.
                </h3>
                <hr/>
                <ul className="social">
@@ -43,10 +52,11 @@ export default class Header extends Component {
                   }
                </ul>
             </div>
+            
          </div>
 
          <p className="scrolldown">
-            <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
+            <a className="smoothscroll" href="#portfolio"><i className="icon-down-circle"></i></a>
          </p>
 
       </header>
